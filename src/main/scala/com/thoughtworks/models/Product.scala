@@ -11,16 +11,16 @@ case class Product(id:String, name:String, category:String, price:Double) {
 object Product {
   def getAvailableProducts(): List[Product] = {
     List(
-      Product(UUID.randomUUID().toString, "Bicicleta", "Esporte & Lazer", 234.56),
-      Product(UUID.randomUUID().toString, "Bola de Futebol", "Esporte & Lazer", 34.56),
-      Product(UUID.randomUUID().toString, "Televisão", "Eletrônicos", 234.56),
-      Product(UUID.randomUUID().toString, "Celular", "Eletrônicos", 1234.56),
-      Product(UUID.randomUUID().toString, "Geladeira", "Eletrodomésticos", 2465.67),
-      Product(UUID.randomUUID().toString, "Fogão", "Eletrodomésticos", 356.78),
-      Product(UUID.randomUUID().toString, "Videogame", "Eletrônicos", 3567.89),
-      Product(UUID.randomUUID().toString, "Camisa", "Vestuário", 56.79),
-      Product(UUID.randomUUID().toString, "Calça", "Vestuário", 89.01),
-      Product(UUID.randomUUID().toString, "Vinho", "Bebidas", 67.89)
+      Product("123", "Bicicleta", "Esporte & Lazer", 234.56),
+      Product("234", "Bola de Futebol", "Esporte & Lazer", 34.56),
+      Product("345", "Televisão", "Eletrônicos", 234.56),
+      Product("456", "Celular", "Eletrônicos", 1234.56),
+      Product("567", "Geladeira", "Eletrodomésticos", 2465.67),
+      Product("678", "Fogão", "Eletrodomésticos", 356.78),
+      Product("789", "Videogame", "Eletrônicos", 3567.89),
+      Product("890", "Camisa", "Vestuário", 56.79),
+      Product("901", "Calça", "Vestuário", 89.01),
+      Product("012", "Vinho", "Bebidas", 67.89)
     )
   }
 }
